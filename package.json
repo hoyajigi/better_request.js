@@ -3,9 +3,10 @@
   "name": "new_example_curl",
   "main": "./new_example_curl.js",
   "dependencies": {
-    "iconv": "latest"
+    "iconv": "latest",
+    "node-icu-charset-detector": "latest"
   },
   "scripts": {
-    "test": "node ./test1.js",
+    "test": "node ./test1.js"
   }
 }
