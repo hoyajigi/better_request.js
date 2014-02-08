@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "name": "new_example_curl",
+  "main": "./new_example_curl.js",
+  "dependencies": {
+    "iconv": "latest"
+  },
+  "scripts": {
+    "test": "node ./test1.js",
+  }
+}
