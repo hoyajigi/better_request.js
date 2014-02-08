@@ -1,12 +1,11 @@
 {
   "version": "0.0.1",
-  "name": "new_example_curl",
-  "main": "./new_example_curl.js",
+  "name": "better_request",
+  "main": "./better_request.js",
   "dependencies": {
-    "iconv": "latest",
-    "node-icu-charset-detector": "latest"
+    "iconv": "~2.0.7",
+    "node-icu-charset-detector": "~0.0.7"
   },
   "scripts": {
-    "test": "node ./test1.js"
   }
 }

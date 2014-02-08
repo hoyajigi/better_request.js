@@ -1,6 +1,6 @@
 
 
-exports.http_request = function(url, callback) {
+module.exports = function(url, callback) {
     var spawn = require('child_process').spawn;
     var Iconv = require('iconv').Iconv;
     var charsetDetector = require("node-icu-charset-detector");
